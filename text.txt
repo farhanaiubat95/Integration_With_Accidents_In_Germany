@@ -1,0 +1,25 @@
+--------MySql Setup---------
+1. Install packages for connecting MySql + python
+   -> pip install mysql-connector-python
+
+2. Install FastApi 
+   -> pip install fastapi uvicorn
+   -> pip install fastapi uvicorn mysql-connector-python pandas
+
+3. ****** We have to run then from api - powershell
+   -> cd main/backend/OpenAPI
+   -> uvicorn app:app --reload
+   --> Output - Uvicorn running on:
+                http://127.0.0.1:8000
+   --> Test also in browser - http://127.0.0.1:8000
+
+4. OpenAPI
+   -> Open - http://127.0.0.1:8000/docs
+
+5. streamlit install
+   -> pip install streamlit-extras
+   
+6. streamlit run
+   -> cd main/frontend
+   -> streamlit run app.py
+   -> Output - http://localhost:8501
